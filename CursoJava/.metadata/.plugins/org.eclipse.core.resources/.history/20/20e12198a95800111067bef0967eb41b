@@ -1,0 +1,14 @@
+package br.com.treinaweb.parte2;
+
+public class TesteCliente2 {
+		public static void main(String args[]){
+			Cliente2 c = new Cliente2();
+			
+			c = alterarCliente();
+			
+			//Exemplo chamada a um metodos com retorno
+			int numero = 0;
+			numero = c.obterNumeroCliente();
+			
+		}
+}

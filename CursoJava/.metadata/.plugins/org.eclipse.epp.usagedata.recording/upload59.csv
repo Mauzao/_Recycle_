@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439793990
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439796327
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1329439796387
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1329439796387
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1329439798040
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439799982
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439802250
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1329439802255
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.file.newQuickMenu",1329439803735
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439806463
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439809993
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1329439810055
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1329439810110
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1329439814520
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439817105
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1329439819068
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439819100
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1329439819105
+error,log,,,"Could not decorate element.",1329439819438
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.file.newQuickMenu",1329439823502
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439825325
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439830747
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1329439830797
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1329439830842
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329439845495

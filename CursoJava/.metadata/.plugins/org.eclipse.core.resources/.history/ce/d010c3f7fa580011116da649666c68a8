@@ -1,0 +1,10 @@
+package br.com.treinaweb.parte3;
+
+public class TestaCliente {
+	public static void main(String args[]){
+		Cliente c = new Cliente();
+		c.setCodigo(1);
+		c.excluir();
+		System.out.println(c.getStatus());
+	}
+}

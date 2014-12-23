@@ -1,0 +1,16 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329230887011
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329230888421
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.cut",1329230903422
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1329230905965
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1329230914399
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1329230916255
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.showRulerContextMenu",1329230921395
+executed,command,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui.commands.RunLast",1329230924758
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329230938501
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329230945783
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329230947173
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329231438571
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329231442159
+stopped,bundle,org.eclipse.emf.teneo.eclipselink.ui,1.0.0.v200909151729,"org.eclipse.emf.teneo.eclipselink.ui",1329231442425
+stopped,bundle,org.eclipse.emf.teneo.eclipselink,1.0.0.v200909151729,"org.eclipse.emf.teneo.eclipselink",1329231442425

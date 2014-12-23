@@ -1,0 +1,291 @@
+!SESSION 2012-01-24 22:17:49.693 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.ui 4 0 2012-01-24 22:18:30.876
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2012-01-24 22:18:30.876
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2012-01-24 22:18:30.876
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2012-01-24 22:18:30.876
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2012-01-24 22:18:30.876
+!MESSAGE Unable to restore perspective: Workspace - Java.
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 4 2012-01-24 22:18:30.876
+!MESSAGE Could not create view: org.eclipse.wst.server.ui.ServersView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.wst.server.ui.ServersView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1247)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1217)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3205)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 3 org.eclipse.ui 4 0 2012-01-24 22:18:30.876
+!MESSAGE Could not create view: org.eclipse.wst.server.ui.ServersView
+!SUBENTRY 2 org.eclipse.ui 4 4 2012-01-24 22:18:30.876
+!MESSAGE Could not create view: org.eclipse.datatools.connectivity.DataSourceExplorerNavigator
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.datatools.connectivity.DataSourceExplorerNavigator
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1247)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1217)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3205)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 3 org.eclipse.ui 4 0 2012-01-24 22:18:30.876
+!MESSAGE Could not create view: org.eclipse.datatools.connectivity.DataSourceExplorerNavigator
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2012-01-24 22:18:30.876
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2012-01-24 22:18:30.876
+!MESSAGE OK
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2012-01-24 22:19:25.464
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 3517 milliseconds.
+!SESSION 2012-01-30 12:43:36.353 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_32-ea
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.equinox.registry 2 0 2012-01-30 12:43:58.880
+!MESSAGE The extensions and extension-points from the bundle "org.eclipse.gmf.runtime.common.ui.printing.win32" are ignored. The host bundle "org.eclipse.gmf.runtime.common.ui.printing" is not marked as singleton. 
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2012-01-30 12:45:41.422
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 2172 milliseconds.
+!SESSION 2012-01-31 12:19:48.242 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_32-ea
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.ui.externaltools 4 0 2012-01-31 12:24:59.865
+!MESSAGE The file does not exist for the external tool named Git GUI.
+
+!ENTRY org.eclipse.ui.externaltools 4 0 2012-01-31 12:25:15.428
+!MESSAGE The file does not exist for the external tool named Git GUI.
+!SESSION 2012-02-01 12:44:26.523 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.equinox.registry 2 0 2012-02-01 12:44:29.300
+!MESSAGE The extensions and extension-points from the bundle "org.eclipse.gmf.runtime.common.ui.printing.win32" are ignored. The host bundle "org.eclipse.gmf.runtime.common.ui.printing" is not marked as singleton. 
+
+!ENTRY org.eclipse.ui.externaltools 4 0 2012-02-01 12:46:51.760
+!MESSAGE The file does not exist for the external tool named Git GUI.
+!SESSION 2012-02-06 22:01:52.741 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2012-02-06 22:02:46.733
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 7051 milliseconds.
+!SESSION 2012-02-07 12:23:35.158 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-02-07 12:23:45.986
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2012-02-13 21:14:12.612 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2012-02-13 21:27:26.146
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 5926 milliseconds.
+!SESSION 2012-02-16 11:53:11.831 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.ui 4 0 2012-02-16 12:20:33.563
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:3884)
+	at org.eclipse.swt.SWT.error(SWT.java:3799)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2806)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3449)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:961)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:943)
+	at org.eclipse.jface.text.source.AnnotationPainter.access$1(AnnotationPainter.java:937)
+	at org.eclipse.jface.text.source.AnnotationPainter$1.run(AnnotationPainter.java:1076)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 22 more
+!SESSION 2012-02-16 21:50:53.488 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.emf.mint 4 0 2012-02-16 22:50:19.390
+!MESSAGE Could not decorate element.
+!STACK 1
+Java Model Exception: Java Model Status [Gato.java [in <default> [in src [in projeto1]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:502)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:515)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:252)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:238)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:193)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:918)
+	at org.eclipse.emf.mint.internal.ui.source.GeneratedElementDecorator.decorate(GeneratedElementDecorator.java:69)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2012-02-16 22:50:19.393
+!MESSAGE Gato.java [in <default> [in src [in projeto1]]] does not exist
+!SESSION 2012-02-20 14:56:59.411 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.core.jobs 4 2 2012-02-20 15:03:29.319
+!MESSAGE An internal error occurred during: "Uploading usage data...".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.epp.usagedata.internal.recording.uploading.BasicUploader.upload(BasicUploader.java:147)
+	at org.eclipse.epp.usagedata.internal.recording.uploading.BasicUploader$1.run(BasicUploader.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

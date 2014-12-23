@@ -1,0 +1,12 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.window.openEditorDropDown",1329782569537
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329782572252
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1329782573297
+executed,command,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui.commands.RunLast",1329782574498
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1329782583281
+executed,command,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui.commands.RunLast",1329782584763
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329782592547
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329784689731
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329784689934
+stopped,bundle,org.eclipse.emf.teneo.eclipselink.ui,1.0.0.v200909151729,"org.eclipse.emf.teneo.eclipselink.ui",1329784690277
+stopped,bundle,org.eclipse.emf.teneo.eclipselink,1.0.0.v200909151729,"org.eclipse.emf.teneo.eclipselink",1329784690277

@@ -1,0 +1,14 @@
+package br.com.treinaweb.parte2;
+
+public class TesteCarro2 {
+	public static void main(String args[]){
+		Carro2 c1 = new Carro2();
+		Carro2 c2 = new Carro2();
+		
+		c1.modelo = "Celta";
+		Carro2.cor = "Vermelho";
+		
+		System.out.println(Carro.cor);
+		System.out.println(c1.modelo);	
+	}
+}

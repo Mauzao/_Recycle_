@@ -1,0 +1,15 @@
+package br.com.treinaweb.parte3;
+import java.io.*;
+public class Arquivo {
+	public static void main(String args[]){
+		lerArquivo("c:\\ler.txt");
+		
+	}
+	public static void lerArquivo(String arquivo){
+	File f = new File(arquivo);
+	if(!f.exists()){
+		System.out.println("Arquivo " + arquivo + " nao exixte");
+		return;
+	}
+	}
+}

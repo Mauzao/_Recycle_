@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+locale,sysinfo,,,"pt_BR",1329442142364
+processors,sysinfo,,,"4",1329442142364
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1329442142364
+java.runtime.version,sysinfo,,,"1.7.0_02-b13",1329442142364
+java.specification.name,sysinfo,,,"Java Platform API Specification",1329442142364
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1329442142364
+java.specification.version,sysinfo,,,"1.7",1329442142364
+java.vendor,sysinfo,,,"Oracle Corporation",1329442142364
+java.version,sysinfo,,,"1.7.0_02",1329442142364
+java.vm.info,sysinfo,,,"mixed mode, sharing",1329442142364
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1329442142364
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1329442142364
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1329442142364
+java.vm.specification.version,sysinfo,,,"1.7",1329442142364
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1329442142364
+java.vm.version,sysinfo,,,"22.0-b10",1329442142364
+started,bundle,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui",1329442180030
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20090504,"org.eclipse.ui.externaltools",1329442180032
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20090504,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1329442180105
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1329442180130
+started,bundle,org.eclipse.jdt.debug.ui,3.4.1.v20090811_r351,"org.eclipse.jdt.debug.ui",1329442180325
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329442181135
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329442246416
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329442250719
+stopped,bundle,org.eclipse.emf.teneo.eclipselink.ui,1.0.0.v200909151729,"org.eclipse.emf.teneo.eclipselink.ui",1329442250907

@@ -1,0 +1,12 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui.commands.RunLast",1329402155283
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329402162683
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329404172407
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329404175357
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329404176446
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329404176807
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329404178315
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329404185088
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1329404187633
+stopped,bundle,org.eclipse.emf.teneo.eclipselink.ui,1.0.0.v200909151729,"org.eclipse.emf.teneo.eclipselink.ui",1329404187886
+stopped,bundle,org.eclipse.emf.teneo.eclipselink,1.0.0.v200909151729,"org.eclipse.emf.teneo.eclipselink",1329404187886

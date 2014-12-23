@@ -1,0 +1,22 @@
+package br.com.treinaweb.parte1;
+
+public class Escopo {
+	//site é uma variavel menbro de uma classe.
+	//ela é visivel em qualquer lugar dentro da classe.
+	String site = "www.treinaweb.com.br";
+	public static void main(String[] args) {
+		//cusro é uma variaavel a nivel de metodo
+		//é visivel apenas dentro do bloco do metodo
+		String curso = "J2SE";
+		try{
+			//msg é uma variavel local
+			//é visivel epenas dentro do bloco try
+			String msg = "Curso" + site;
+			System.out.println(curso);
+		}catch(Exception e){
+			//'e' é uma variavel local passada como paramentro
+			//ele é visivel apenas no bloco catch
+			System.out.println(e.getMessage());
+		}
+	}
+}

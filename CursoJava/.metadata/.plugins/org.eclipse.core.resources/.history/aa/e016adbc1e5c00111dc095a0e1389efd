@@ -1,0 +1,12 @@
+package br.com.treinaweb.parte3;
+
+public class TesteMath {
+	public static void main(String args[]){
+		int a = 2;	
+		
+		//obtendo um valor absoluto
+		a = Math.abs(a);
+		System.out.println(a);
+	}
+	
+}

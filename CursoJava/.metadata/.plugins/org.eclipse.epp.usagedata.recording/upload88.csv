@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1329757025965
+started,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1329757025965
+started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1329757025966
+started,bundle,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.ide",1329757025976
+started,bundle,org.eclipse.ui.net,1.2.1.r35x_20090812-1200,"org.eclipse.ui.net",1329757025977
+started,bundle,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views",1329757025977
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.ui.views.log",1329757025978
+started,bundle,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"org.eclipse.ui.workbench",1329757025978
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1329757025979
+started,bundle,org.eclipse.uml2.diagram.common,0.9.0.v200906190654,"org.eclipse.uml2.diagram.common",1329757025979
+started,bundle,org.eclipse.uml2.uml,3.0.1.v200908281330,"org.eclipse.uml2.uml",1329757025980
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1329757025981
+os,sysinfo,,,"win32",1329757025985
+arch,sysinfo,,,"x86",1329757025985
+ws,sysinfo,,,"win32",1329757025985
+locale,sysinfo,,,"pt_BR",1329757025985
+processors,sysinfo,,,"4",1329757025985
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1329757025985
+java.runtime.version,sysinfo,,,"1.7.0_02-b13",1329757025985
+java.specification.name,sysinfo,,,"Java Platform API Specification",1329757025985
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1329757025985
+java.specification.version,sysinfo,,,"1.7",1329757025985
+java.vendor,sysinfo,,,"Oracle Corporation",1329757025985
+java.version,sysinfo,,,"1.7.0_02",1329757025985
+java.vm.info,sysinfo,,,"mixed mode, sharing",1329757025985
